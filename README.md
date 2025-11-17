@@ -8,9 +8,6 @@ Um sistema de gestão hospitalar desenvolvido em Python, focado na aplicação d
 
 Este projeto foi realizado no âmbito da disciplina de Programação e Sistemas de Informação do Curso Técnico De Gestão e Programação De Sistemas Informáticos.
 
-## 🚀 Tecnologias Utilizadas
-O projeto foi construído utilizando exclusivamente Python e as suas bibliotecas nativas, com foco na lógica e na arquitetura do software.
-
 ## 🎯 Objetivo Principal
 O objetivo central foi projetar e implementar um sistema funcional que demonstrasse o domínio e a aplicação prática dos seguintes conceitos de Programação Orientada a Objetos:~
 - **Classes Abstratas:** Para criar "contratos" e modelos base (`Pessoa`, `Sala`).
@@ -42,11 +39,8 @@ Foi desenvolvido um sistema modular em Python, executado via linha de comando, q
 
 ## 👤 Meu Papel
 Este projeto foi desenvolvido em colaboração. Embora tenha tido um papel ativo em todas as fases do projeto, as minhas principais responsabilidades centraram-se na arquitetura e na implementação da lógica de negócio. Fui responsável por:
-
 - Arquitetura e Modelo de Dados: Estruturar o modelo de classes de raiz, definindo a hierarquia de herança, as classes abstratas e a aplicação de polimorfismo, que são o pilar de todo o sistema.
-
 - Desenvolvimento de Componentes Core: Implementar os mecanismos mais complexos, como o motor de cálculo de horários (Horario.py) e o sistema de pagamentos flexível com o padrão Strategy.
-
 - Refatoração e Qualidade de Código: Após uma fase inicial, liderei uma refatoração significativa do código para aumentar a modularidade e garantir o baixo acoplamento entre os módulos (Program, Horario, Console), melhorando a manutenibilidade geral da aplicação.
 
 ## ⚙️ Principais Desafios
