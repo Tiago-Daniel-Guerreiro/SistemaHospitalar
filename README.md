@@ -1,7 +1,6 @@
 # Sistema de Gestão Hospitalar
 
 ![Language](https://img.shields.io/badge/Python-3.13%2B-blue.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-Projeto%20Escolar-brightgreen)
 
 Um sistema de gestão hospitalar desenvolvido em Python, focado na aplicação de princípios de Programação Orientada a Objetos (POO). O projeto modela entidades e processos complexos de um hospital, como o registo de pacientes, a gestão de diferentes tipos de funcionários, a alocação de salas e um sistema avançado de gestão de horários e calculo de pagamentos. A interação é feita através de uma interface de linha de comando (CLI).
