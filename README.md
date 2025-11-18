@@ -20,18 +20,18 @@ A gestão de um ambiente hospitalar é uma tarefa de alta complexidade que envol
 
 ## ✔️ A Solução
 Foi desenvolvido um sistema modular em Python, executado via linha de comando, que modela as operações hospitalares através de uma arquitetura coesa e dividida em três camadas principais:
-1.  **`Program.py` - O Núcleo do Sistema (Modelo):**
+-  **`Program.py` - O Núcleo do Sistema (Modelo):**
     - Contém a representação de todas as entidades: `Pessoa`, `Paciente`, `Funcionario`, `Sala` e as suas especializações (`Medico`, `Enfermeiro`, `SalaAtendimento`, `SalaCirurgia`).
     - Implementa um sistema de pagamento flexível através do padrão **Strategy**, onde diferentes `RegraDePagamento` (bónus, pagamento por hora, etc.) podem ser dinamicamente adicionadas a um funcionário.
     - Utiliza a classe `SistemaHospital` como um orquestrador central que gere todos os dados em memória.
 
-2.  **`Horario.py` - Gestão Avançada de Tempo:**
+-  **`Horario.py` - Gestão Avançada de Tempo:**
     - Um módulo altamente especializado e isolado, responsável por toda a lógica temporal.
     - Modela conceitos como `HoraMinuto`, `IntervaloTempo` e `Pausas`, com validações robustas.
     - Calcula automaticamente o tempo de trabalho diurno e noturno, mesmo em turnos que atravessam a meia-noite.
     - A classe `FuncionarioHorario` atua como uma fachada, simplificando a interação entre um `Funcionario` e a complexa lógica de horários.
 
-3.  **`Console.py` - A Interface do Utilizador (Controlador/Visão):**
+-  **`Console.py` - A Interface do Utilizador (Controlador/Visão):**
     - Responsável por toda a interação com o utilizador através de menus de texto.
     - Traduz as ações do utilizador (ex: "chamar próximo paciente") em chamadas aos métodos dos objetos do modelo.
     - Mantém a lógica de negócio separada da apresentação, permitindo que a interface possa ser substituída no futuro (ex: por uma interface gráfica ou web) com menor impacto.
@@ -58,17 +58,17 @@ O projeto resultou num protótipo de sistema de informação hospitalar funciona
 ## 🛠️ Como Utilizar
 Para executar o sistema, siga os passos abaixo:
 
-1.  Certifique-se de que tem o **Python 3.13** instalado.
-2.  Clone este repositório:
+-  Certifique-se de que tem o **Python 3.13** instalado.
+-  Clone este repositório:
     ```bash
     git clone https://github.com/Tiago-Daniel-Guerreiro/Sistema_Hospitalar.git
     ```
-3.  Na pasta do projeto execute o ficheiro principal:
+-  Na pasta do projeto execute o ficheiro principal:
     ```bash
     python Console.py
     ```
 	
-5.  O programa irá perguntar se deseja inicializar o sistema com dados padrão para demonstração. Escolha 's' (sim) para uma experiência mais completa.
+-  O programa irá perguntar se deseja inicializar o sistema com dados padrão para demonstração. Escolha 's' (sim) para uma experiência mais completa.
 
 ## 🔮Próximos Passos
 Embora o projeto tenha cumprido os seus objetivos, existem várias melhorias possíveis para o futuro:
